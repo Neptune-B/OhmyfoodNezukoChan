@@ -52,7 +52,7 @@ text-align: center;
     .explorer button {
        background-image: linear-gradient(to top , rgba(147,86,220,.9), rgba(255,121,218,.9));
        color: white;
-       font-weight: bold;
+       font-weight: 300;
        font-size: 1rem;
        padding: 1rem 2rem;
        border: none;
@@ -67,4 +67,4 @@ text-align: center;
         transform: scale(1.02);
         opacity: 0.9;
     }
-    
+
