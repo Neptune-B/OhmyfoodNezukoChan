@@ -1,0 +1,28 @@
+@use "../utils/zoom.scss" ; 
+@use "../utils/box-shadow.scss"; 
+
+.tuto {
+
+    & ol {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem ; 
+        @media(max-width: 800px) {
+            flex-direction: column;
+        }
+    }
+    
+    & li {
+        background-color: #f6f6f6;
+        padding: 1rem 2rem ;
+        flex-grow: 1 ;
+        border-radius: 1rem;
+        @include box-shadow.base-shadow ; 
+        
+        &:hover {
+            @include zoom.zoom ; 
+        }
+    }
+}
+
